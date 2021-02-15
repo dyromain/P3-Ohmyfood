@@ -258,14 +258,14 @@ button
     width:100%;
     object-fit: cover;
     object-position: bottom;
-    border-radius: 25px 25px 0 0;
+    border-radius: 13px 13px 0 0;
     max-height: 71%;
 }
 
 .palette, .note-enchantee, .alafrancaise, .delicedessens
 {
     background-color: white;
-    border-radius: 25px;
+    border-radius: 13px;
     width:90%;
     margin-left:5%;
     margin-bottom: 5%;
@@ -278,6 +278,7 @@ button
     margin-top: 2%;
     margin-bottom: 0;
     margin-left: 4%;
+    width:100%;
 }
 
 #restaurants p
@@ -292,42 +293,47 @@ button
     object-position: center;
 }
 
-#restaurants > div.delicedessens > p > i
+.coeur
 {
-    position: absolute;
-    right: 10%;
-    top: 261%;
+    padding-right: 5%;
+    padding-top: 1%;
     font-size: 1.5em;
 }
 
-#restaurants > div.alafrancaise > p > i
-{
-    position: absolute;
-    right: 10%;
-    top: 222%;
-    font-size: 1.5em;
-}
-
-#restaurants > div.note-enchantee > p > i
-{
-    position: absolute;
-    right: 10%;
-    top: 183%;
-    font-size: 1.5em;
-}
-
-#restaurants > div.palette > p > i
-{
-    position: absolute;
-    right: 10%;
-    top: 144%;
-    font-size: 1.5em;
-}
-
-.nouveau
+.nouveau1
 {
     background-color: rgb(153, 226, 208);
-    color: rgb(0,135,102)
+    color: rgb(0,135,102);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 15%;
+    position: absolute;
+    right: 8%;
+    font-size: smaller;
+    top: 118%;
+}
+
+.nouveau2
+{
+    background-color: rgb(153, 226, 208);
+    color: rgb(0,135,102);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 15%;
+    position: absolute;
+    right: 8%;
+    font-size: smaller;
+    top: 157%;
+}
+
+.palette-desc, .note-enchantee-desc, .alafrancaise-desc, .delicedessens-desc
+{
+    display:flex;
+    justify-content: space-between;
 }
 
 /*Footer*/
