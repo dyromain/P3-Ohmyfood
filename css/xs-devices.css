@@ -81,18 +81,34 @@ p
 
 .logo img
 {
-    width: 100%;
+    width: 10em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo
 {
     background-color: white;
     height: 3em;
-    width: 50%;
-    margin-top: 1.5em;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 1%;
     overflow: overlay;
+    display: flex;
+    align-items: center;
+}
+
+.arrow
+{
+    font-size: larger;
+    margin-left: 10%;
+    padding-bottom: 2%;
+    margin-right: 15%;
+}
+
+.arrow > a
+{
+    text-decoration: none;
+    list-style-type: none;
+    color:black;
 }
 
 .recherche
@@ -219,6 +235,12 @@ div.explorer > button
     font-weight: lighter;
     position: relative;
     left: -68px;
+    padding-bottom: 2px;
+}
+
+.deux
+{
+    padding-top:0;
 }
 
 .mobile, .list, .store
@@ -235,7 +257,7 @@ div.explorer > button
     padding-right:5%;
 }
 
-.store, .menu
+.store, .comp-menu
 {
     padding-right:5%;
 }
@@ -313,7 +335,7 @@ div.explorer > button
     position: absolute;
     right: 8%;
     font-size: smaller;
-    top: 118%;
+    top: 115%;
 }
 
 .nouveau2
@@ -328,13 +350,19 @@ div.explorer > button
     position: absolute;
     right: 8%;
     font-size: smaller;
-    top: 157%;
+    top: 153%;
 }
 
 .palette-desc, .note-enchantee-desc, .alafrancaise-desc, .delicedessens-desc
 {
     display:flex;
     justify-content: space-between;
+}
+#restaurants a
+{
+    text-decoration: none;
+    list-style-type: none;
+    color:black;
 }
 
 /*Footer*/
@@ -378,7 +406,7 @@ footer a
     padding-right: 3%;
 }
 
-/*A la francaise*/
+/*Menus*/
 
 .photo-alafrancaise > img
 {
@@ -429,12 +457,13 @@ div.commander > button
     justify-content: space-between;
     align-items: center;
     margin-left: 5%;
+    margin-right: 5%;
 }
 
 .coeur-menu
 {
     font-size: 1.5em;
-    padding-right: 2%;
+    padding-right: 3%;
 }
 
 .menu h2
@@ -470,8 +499,9 @@ div.commander > button
 {
     background: white;
     border-radius: 15px;
-    width: 98%;
+    width: 92%;
     margin-left: 4%;
+    margin-right: 4%;
     box-shadow: 0px 6px 12px 0px lightgrey;
 }
 
