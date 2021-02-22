@@ -240,7 +240,7 @@ div.explorer > button
 
 .deux
 {
-    padding-top:0;
+    padding-top:1px;
 }
 
 .mobile, .list, .store
@@ -283,6 +283,11 @@ div.explorer > button
     object-position: bottom;
     border-radius: 13px 13px 0 0;
     max-height: 71%;
+}
+
+#restaurants > div.note-enchantee > a > img
+{
+    object-position: center;
 }
 
 .palette, .note-enchantee, .alafrancaise, .delicedessens
