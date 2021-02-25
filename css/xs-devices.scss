@@ -1,0 +1,30 @@
+$rose: #FF79DA;
+$violet: #9356DC;
+$mint: #99E2D0;
+$light-grey: rgb(246,246,246);
+$grey: rgb(234, 234, 234);
+$dark-grey: rgb(53,53,53);
+
+div.explorer > button
+{
+    {
+        font-family: 'robotoregular', Arial, sans-serif;
+        color: white;
+        background: linear-gradient(to bottom right, $rose, $violet);
+        border-radius: 25px;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+        margin-left:25%;
+        margin-right:25%;
+        border: hidden;
+    }
+    
+}
+
+button:hover
+{
+    color:lighten($violet, 50%)
+}
+
