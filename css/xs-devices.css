@@ -406,7 +406,7 @@ button:hover
     margin-top: 2%;
 }
 
-.heart-stack 
+.heart-stack
 {
     position: relative;
     display: inline-block;
@@ -415,25 +415,7 @@ button:hover
     vertical-align: middle;
 }
 
-.heart-st 
-{
-    position: relative;
-    display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
-    vertical-align: middle;
-}
- 
 .heart-stack-1x 
-{
-    position:absolute;
-    left: 1px;
-    top: 1px;
-    font-size: 1.4em;
-    color:white;
-}
-
-.heart-st-1x 
 {
     position:absolute;
     left: 1px;
@@ -447,35 +429,28 @@ button:hover
     font-size: 1.5em;
 }
 
-.heart-st-2x 
-{
-    font-size: 1.5em;
-}
-
-
 .heart-stack:hover
 {
-    color: #9356DC;
-    transition: 0.5s ease-out;
+    
+    transition: 1.4s ease-in-out 0.5s;
+    display: block;
+    background: -webkit-linear-gradient(#9356DC, #FF79DA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
 }
 
-.heart-st:hover
-{
-    color: #9356DC;
-    transition: 0.5s ease-out;
-}
 
 .heart-stack-1x:hover
 {
-    color: #9356DC;
-    transition: 0.5s ease-out;
+    transition: 1.4s ease-in-out 0.5s;
+    display: block;
+    background: -webkit-linear-gradient(#9356DC, #FF79DA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor:pointer;
 }
 
-.heart-st-1x:hover
-{
-    color: #9356DC;
-    transition: 0.5s ease-out;
-}
 
 .nouveau1
 {
