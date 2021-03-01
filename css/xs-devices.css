@@ -109,7 +109,7 @@ p
     background: linear-gradient(to top right, #FF79DA, #9356DC);
     border-radius: 100%;
     animation: spinner 1.4s ease-in-out both; 
-    animation-iteration-count: 3;
+    animation-iteration-count: 2;
 }
   
 .spinner-cercle:nth-child(1) { transform: rotate(30deg); }
@@ -246,6 +246,7 @@ div.explorer > button
     margin-left:25%;
     margin-right:25%;
     border: hidden;
+    width:50%;
 }
 
 .explorer > button > a
@@ -456,30 +457,28 @@ button:hover
 {
     background-color: rgb(153, 226, 208);
     color: rgb(0,135,102);
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
     padding-top: 1%;
     padding-bottom: 1%;
-    width: 15%;
     position: absolute;
-    right: 8%;
+    right: 2em;
     font-size: smaller;
-    top: 115%;
+    top: 58em;
 }
 
 .nouveau2
 {
     background-color: rgb(153, 226, 208);
     color: rgb(0,135,102);
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
     padding-top: 1%;
     padding-bottom: 1%;
-    width: 15%;
     position: absolute;
-    right: 8%;
+    right: 2em;
     font-size: smaller;
-    top: 153%;
+    top: 77.5em;
 }
 
 .palette-desc, .note-enchantee-desc, .alafrancaise-desc, .delicedessens-desc
@@ -652,3 +651,37 @@ div.commander > button
     font-weight:bold;
     font-size:0.9em;
 }
+
+/*Animations*/
+
+.entree1, .entree2, .entree3
+{
+    animation: anim-menu 1s;
+    animation-timing-function: cubic-bezier(.4,1.40,.30,.95);
+    animation-fill-mode: both;
+}
+
+.plat1, .plat2, .plat3
+{
+    animation: anim-menu 1s;
+    animation-delay: 1s;
+    animation-timing-function: cubic-bezier(.4,1.40,.30,.95);
+    animation-fill-mode: both;
+}
+
+.dessert1, .dessert2, .dessert3
+{
+    animation: anim-menu 1s;
+    animation-delay: 2s;
+    animation-timing-function: cubic-bezier(.4,1.40,.30,.95);
+    animation-fill-mode: both;
+}
+
+@keyframes anim-menu {
+    0% {
+      transform: scale(0)
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
