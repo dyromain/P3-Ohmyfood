@@ -248,6 +248,7 @@ div.explorer > button
     margin-right:25%;
     border: hidden;
     width:50%;
+    position:absolute;
 }
 
 .explorer > button > a
@@ -418,14 +419,9 @@ button:hover
     transform: scale(1.1);
 }
 
-
 .heart-stack-2x{
     font-size: 1.4em;
     position:absolute;
-}
-
-.heart-stack-2x{
-   
     transition: 350ms ease-in-out;
     opacity: 0;
 }
@@ -479,7 +475,7 @@ button:hover
     position: absolute;
     right: 2em;
     font-size: smaller;
-    top: 55em;
+    top: 51em;
 }
 
 .nouveau2
@@ -493,7 +489,7 @@ button:hover
     position: absolute;
     right: 2em;
     font-size: smaller;
-    top: 74.5em;
+    top: 70.5em;
 }
 
 .palette-desc, .note-enchantee-desc, .alafrancaise-desc, .delicedessens-desc
@@ -590,8 +586,9 @@ div.commander > button
     background: rgb(246,246,246);
     border-radius: 25px 25px 0 0;
     margin-top: -14%;
-    overflow: overlay;
     padding-bottom: 13%;
+    position:relative;
+    z-index:1;
 }
 
 .nomdurestau h1
@@ -636,7 +633,15 @@ div.commander > button
 .ingr
 {
     font-size:0.9em;
-    width:100%;
+    width: 77%;
+}
+
+.ingr > h3, p 
+{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    
 }
 
 #desc1, #desc2, #desc3, #desc3bis, #desc4, #desc5, #desc6, #desc7, #desc8, #desc9
@@ -707,8 +712,8 @@ div.commander > button
     color:white;
     border-radius: 0 15px 15px 0;
     display:none;
-    visibility: hidden;
     width: 18%;
+    margin-left: 5%;
   }
 
   
@@ -726,10 +731,10 @@ div.commander > button
  }
 
 
-.entree1:hover, .entree2:hover, .entree3:hover, .entree4:hover, 
-.plat1:hover, .plat2:hover, .plat3:hover, .dessert1:hover, .dessert2:hover, .dessert3:hover + .coche
+.entree1:hover .coche, .entree2:hover .coche, .entree3:hover .coche, .entree4:hover .coche, .plat1:hover .coche, .plat2:hover .coche,
+.plat3:hover .coche, .dessert1:hover .coche, .dessert2:hover .coche, .dessert3:hover .coche
 {
    display:block;
-   visibility: visible;
 }
+
  
