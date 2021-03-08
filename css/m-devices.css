@@ -79,8 +79,8 @@ p
 
 .spinner
 {
-    width: 100%;
-    height: 100%;
+    width: 55%;
+    height: 50%;
     position: absolute;
     left: 0;
     right: 0;
@@ -160,7 +160,6 @@ p
     background-color: white;
     height: 3em;
     margin-top: 1%;
-    overflow: overlay;
     display: flex;
     align-items: center;
 }
@@ -170,7 +169,7 @@ p
     font-size: larger;
     margin-left: 10%;
     padding-bottom: 2%;
-    margin-right: 15%;
+    margin-right: 29%;
 }
 
 .arrow > a
@@ -213,7 +212,7 @@ p
 {
     background-color:rgb(246, 246, 246);
     padding-top: 4%;
-    padding-bottom: 13%;
+    padding-bottom: 20%;
 }
 
 div.explorer > h1
@@ -232,6 +231,7 @@ div.explorer > p
     text-align: center;
     margin-top: -7px;
     font-family: 'robotolight', Arial, sans-serif;
+    white-space:normal;
 }
 
 div.explorer > button
@@ -272,14 +272,12 @@ button:hover
 .fa-mobile-alt, .fa-list-ul
 {
     color:rgb(126, 126, 126);
-    padding-right: 5%;
     font-size: 1em;
 }
 
 .fa-store
 {
     color:#9356DC;
-    padding-right: 5%;
     font-size: 1em;
 }
 
@@ -315,46 +313,59 @@ button:hover
     color: white;
     font-family: 'robotolight', Arial, sans-serif;
     font-weight: lighter;
-    position: relative;
-    left: -68px;
+    position: absolute;
+    left: 30px;
 }
 
-.trois
+.comp-menu
 {
-    left: -66px;
-}
-
-.mobile, .list, .store
-{
-    padding-top: 4%;
-}
-
-.mobile
-{
-    padding-right:6%;
-}
-
-.list{
-    padding-right:5%;
-}
-
-.store, .comp-menu
-{
-    padding-right:5%;
+    padding-right:2%;
 }
 
 .restau
 {
-    padding-right: 3%;
+    padding-right:1%;
+}
+
+div.mobile > i
+{
+    position: absolute;
+    left: 16em;
+    top: 30em;
+}
+
+.list > i
+{
+    position: absolute;
+    left: 16em;
+    top: 37.8em;
+}
+
+.store >i
+{
+    position: absolute;
+    left: 16em;
+    top: 45.8em;
+}
+
+#fonctionnement > p
+{
+    overflow: visible;
 }
 
 /*Restaurants */
 
+.ligne1, .ligne2
+{
+    display:flex;
+    width:95%;
+}
+
 #restaurants
 {
     background-color:rgb(246, 246, 246);
-    padding-top: 6%;
-    padding-bottom:10%;
+    padding-top: 3%;
+    padding-bottom:3%;
 }
 
 #restaurants img
@@ -472,9 +483,9 @@ button:hover
     padding-top: 1%;
     padding-bottom: 1%;
     position: absolute;
-    right: 2em;
     font-size: smaller;
-    top: 51em;
+    top: 69em;
+    left: 18em; 
 }
 
 .nouveau2
@@ -486,9 +497,9 @@ button:hover
     padding-top: 1%;
     padding-bottom: 1%;
     position: absolute;
-    right: 2em;
+    right: 3.6em;
     font-size: smaller;
-    top: 70.5em;
+    top: 69em;
 }
 
 .palette-desc, .note-enchantee-desc, .alafrancaise-desc, .delicedessens-desc
@@ -536,7 +547,7 @@ footer a
 
 .fa-utensils 
 {
-    padding-right: 5%;
+    padding-right: 4%;
 }
 
 .fa-hands-helping
@@ -548,14 +559,34 @@ footer a
 
 .photo-alafrancaise > img
 {
-    width:100%;
+    width: 100%;
+    height: 20em;
+    object-fit: cover;
+    object-position: bottom;
 }
 
 .photo-noteenchantee > img
 {
     width: 100%;
     object-fit: cover;
-    height: 17em;
+    height: 20em;
+    object-position: center;
+}
+
+.photo-delicedessens > img
+{
+    width: 100%;
+    object-fit: cover;
+    height: 20em;
+    object-position: bottom;
+}
+
+.photo-palettedugout >img
+{
+    width: 100%;
+    object-fit: cover;
+    height: 20em;
+    object-position: bottom;
 }
 
 div.commander > button
@@ -609,7 +640,7 @@ div.commander > button
 {
     font-size: 1.4em;
     margin-right: 12%;
-    margin-bottom: 9%;
+    margin-bottom: 4%;
 }
 
 .menu h2
@@ -617,7 +648,7 @@ div.commander > button
     font-family: 'robotolight', Arial, sans-serif;
     margin-left: 5%;
     border-bottom: #99E2D0 4px solid;
-    width: 13%;
+    width: 6.5%;
     height: 30px;
     margin-top: 5%;
 }
@@ -719,8 +750,8 @@ div.commander > button
   div.coche > i
   {
     font-size: larger;
-    margin-left: 33%;
-    margin-top: 38%;
+    margin-left: 42%;
+    margin-top: 23%;
   }
 
  .entree1, .entree2, .entree3, .entree4, .plat1, .plat2, .plat3, .dessert1, .dessert2, .dessert3

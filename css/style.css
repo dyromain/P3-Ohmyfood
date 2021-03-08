@@ -80,21 +80,20 @@ p
 
 .spinner
 {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
     margin: auto;
-    top: 0;
-    z-index:1;
+    top: 10em;
 }
   
 .spinner-cercle
 {
-    width: 15em;
-    height: 15em;
+    width: 14em;
+    height: 14em;
     position: absolute;
     left: 0;
     top: 0;
@@ -110,7 +109,7 @@ p
     display: block;
     width: 10%;
     height: 10%;
-    background: #9356DC;
+    background: linear-gradient(to top right, #FF79DA, #9356DC);
     border-radius: 100%;
     animation: spinner 1.4s ease-in-out both; 
     animation-iteration-count: 3;
@@ -312,7 +311,7 @@ button:hover
 
 #fonctionnement > div.composer > div.comp-menu
 {
-    padding-right: 3%;
+    padding-right: 4%;
 }
 
 .choisir, .composer, .deguster, p
@@ -340,7 +339,7 @@ button:hover
     font-family: 'robotolight', Arial, sans-serif;
     font-weight: lighter;
     position: absolute;
-    left: 30em;
+    left: 28em;
 
 }
 
@@ -354,7 +353,7 @@ button:hover
 #fonctionnement > div.choisir > div.mobile > i
 {
     position: absolute;
-    left: 25em;
+    left: 25.1em;
 }
 
 #fonctionnement > div.composer > div.list > i
@@ -511,9 +510,9 @@ button:hover
     padding-top: 1%;
     padding-bottom: 1%;
     position: absolute;
-    left: 32.2em;
+    left: 30.5em;
     font-size: 1em;
-    top: 72em;
+    top: 69em;
 }
 
 .nouveau2
@@ -525,9 +524,9 @@ button:hover
     padding-top: 1%;
     padding-bottom: 1%;
     position: absolute;
-    right: 10.5em;
+    right: 9.7em;
     font-size: 1em;
-    top: 72em;
+    top: 69em;
 }
 
 .palette-desc, .note-enchantee-desc, .alafrancaise-desc, .delicedessens-desc
