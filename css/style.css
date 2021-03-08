@@ -599,6 +599,22 @@ footer a
     height: 22em;
 }
 
+.photo-delicedessens > img
+{
+    width: 100%;
+    object-fit: cover;
+    height: 22em;
+    object-position: center;
+}
+
+.photo-palettedugout > img
+{
+    width: 100%;
+    object-fit: cover;
+    height: 22em;
+    object-position: center;
+}
+
 div.commander > button
 {
     font-family: 'robotoregular', Arial, sans-serif;
