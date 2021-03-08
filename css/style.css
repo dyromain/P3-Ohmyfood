@@ -255,15 +255,9 @@ div.explorer > button
     border: hidden;
     width: 25%;
     position: absolute;
-    top: 21em;
-    left: 42em;
-}
-
-.explorer > button > a
-{
-    text-decoration: none;
-    color:white;
-    font-size: 1.4em;
+    top: 13.5em;
+    left: 26em;
+    font-size: 1.3em;
 }
 
 button:hover

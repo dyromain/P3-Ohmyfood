@@ -251,11 +251,6 @@ div.explorer > button
     position:absolute;
 }
 
-.explorer > button > a
-{
-    text-decoration: none;
-    color:white;
-}
 
 button:hover
 {
@@ -588,6 +583,11 @@ div.commander > button
 {
     text-decoration: none;
     color:white;
+}
+
+button:hover
+{
+    filter: brightness(1.1);
 }
 
 .menu
