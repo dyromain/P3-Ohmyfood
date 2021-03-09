@@ -372,14 +372,9 @@ div.mobile > i
 {
     width:100%;
     object-fit: cover;
-    object-position: bottom;
+    object-position: center;
     border-radius: 13px 13px 0 0;
     max-height: 71%;
-}
-
-#restaurants > div.note-enchantee > a > img
-{
-    object-position: center;
 }
 
 .palette, .note-enchantee, .alafrancaise, .delicedessens
