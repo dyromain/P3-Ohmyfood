@@ -360,6 +360,11 @@ button:hover
     max-height: 71%;
 }
 
+#restaurants > div.ligne1 > div.note-enchantee > a > img
+{
+    object-position: center;
+}
+
 .palette, .note-enchantee, .alafrancaise, .delicedessens
 {
     background-color: white;
