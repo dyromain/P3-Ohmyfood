@@ -87,7 +87,7 @@ p
     right: 0;
     bottom: 0;
     margin: auto;
-    top: 10em;
+    top: 21em;
 }
   
 .spinner-cercle
@@ -256,8 +256,9 @@ div.explorer > button
     width: 25%;
     position: absolute;
     top: 13.5em;
-    left: 26em;
+    left: 27.2em;
     font-size: 1.3em;
+    cursor:pointer;
 }
 
 button:hover
@@ -333,7 +334,7 @@ button:hover
     font-family: 'robotolight', Arial, sans-serif;
     font-weight: lighter;
     position: absolute;
-    left: 28em;
+    left: 29.7em;
 
 }
 
@@ -347,19 +348,19 @@ button:hover
 #fonctionnement > div.choisir > div.mobile > i
 {
     position: absolute;
-    left: 25.1em;
+    left: 27.1em;
 }
 
 #fonctionnement > div.composer > div.list > i
 {
     position: absolute;
-    left: 25em;
+    left: 27em;
 }
 
 #fonctionnement > div.deguster > div.store > i
 {
     position: absolute;
-    left: 25em;
+    left: 27em;
 }
 
 
@@ -504,9 +505,9 @@ button:hover
     padding-top: 1%;
     padding-bottom: 1%;
     position: absolute;
-    left: 30.5em;
+    left: 32em;
     font-size: 1em;
-    top: 69em;
+    top: 72em;
 }
 
 .nouveau2
@@ -518,9 +519,9 @@ button:hover
     padding-top: 1%;
     padding-bottom: 1%;
     position: absolute;
-    right: 9.7em;
+    right: 10.7em;
     font-size: 1em;
-    top: 69em;
+    top: 72em;
 }
 
 .palette-desc, .note-enchantee-desc, .alafrancaise-desc, .delicedessens-desc
