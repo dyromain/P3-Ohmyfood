@@ -117,8 +117,8 @@ header, main
 {
     content: '';
     display: block;
-    width: 10%;
-    height: 10%;
+    width: 14%;
+    height: 14%;
     background: linear-gradient(to top right, #FF79DA, #9356DC);
     border-radius: 100%;
     animation: spinner 1.4s ease-in-out both; 
@@ -149,6 +149,9 @@ header, main
 .spinner-cercle:nth-child(11):before { animation-delay: -0.1s; }
 
 @keyframes spinner {
+    0%, 30%{
+        opacity:1;
+    }
     100% {
       opacity: 0;
       z-index: -100;
