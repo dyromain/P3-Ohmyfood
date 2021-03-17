@@ -774,35 +774,39 @@ div.commander > button
   }
 
 /*Animation coche*/
-  .coche
-  {
-    background:#99E2D0;
-    color:white;
-    border-radius: 0 15px 15px 0;
-    display:none;
-    width: 18%;
-    margin-left: 3%;
-  }
+.coche
+{
+  background:#99E2D0;
+  color:white;
+  border-radius: 0 15px 15px 0;
+  width: 7rem;
+  margin: 0rem -5rem 0rem 1rem;
+  transition-duration: .5s;
+  transform: scaleX(0);
+}
 
-  
-  div.coche > i
-  {
-    font-size: 1.8em;
-    margin-left: 42%;
-    margin-top: 22%;
-  }
 
- .entree1, .entree2, .entree3, .entree4, .plat1, .plat2, .plat3, .dessert1, .dessert2, .dessert3
- {
-     display:flex;
-     margin-bottom: 4%;
- }
+div.coche > i
+{
+  font-size: 1.5em;
+  margin-left: 38%;
+  margin-top: 38%;
+}
+
+.entree1, .entree2, .entree3, .entree4, .plat1, .plat2, .plat3, .dessert1, .dessert2, .dessert3
+{
+   display:flex;
+   margin-bottom: 4%;
+}
 
 
 .entree1:hover .coche, .entree2:hover .coche, .entree3:hover .coche, .entree4:hover .coche, .plat1:hover .coche, .plat2:hover .coche,
 .plat3:hover .coche, .dessert1:hover .coche, .dessert2:hover .coche, .dessert3:hover .coche
 {
-   display:block;
+ margin-right:-1px;
+ transform-origin: 100% 0%;
+ transform: scaleX(1);
+ transition: transform 900ms;
 }
 
  
