@@ -693,7 +693,7 @@ button:hover
     font-weight:bold;
     font-size:0.9em;
     padding-top:2.4em;
-    padding-right: 1%;
+    padding-right: 3%;
 }
 
 /*Animation menu*/
@@ -737,7 +737,7 @@ button:hover
     color:white;
     border-radius: 0 15px 15px 0;
     width: 4rem;
-    margin: 0rem -5rem 0rem 1rem;
+    margin: 0 -5rem 0 0.3rem;
     transition-duration: .5s;
     transform: scaleX(0);
   }
