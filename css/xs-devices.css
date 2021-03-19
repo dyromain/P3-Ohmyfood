@@ -223,7 +223,7 @@ header, main
 {
     background-color:rgb(246, 246, 246);
     padding-top: 4%;
-    padding-bottom: 20%;
+    padding-bottom: 12%;
 }
 
 div.explorer > h1
@@ -259,7 +259,6 @@ div.explorer > button
     margin-right:25%;
     border: hidden;
     width:50%;
-    position:absolute;
 }
 
 
@@ -297,6 +296,7 @@ button:hover
     width: 88%;
     border-radius: 20px;
     box-shadow: 0em 1em 1em -0.5em rgb(234 234 234);
+    position:relative
 }
 
 .choisir, .composer, .deguster p
@@ -321,27 +321,14 @@ button:hover
     color: white;
     font-family: 'robotolight', Arial, sans-serif;
     font-weight: lighter;
-    position: relative;
-    left: -68px;
-}
-
-.trois
-{
-    left: -66px;
+    position: absolute;
+    left: -.5rem;
 }
 
 .mobile, .list, .store
 {
     padding-top: 4%;
-}
-
-.mobile
-{
-    padding-right:6%;
-}
-
-.list{
-    padding-right:5%;
+    padding-right: 6%;
 }
 
 .store, .comp-menu
@@ -385,6 +372,7 @@ button:hover
     margin-bottom: 5%;
     height: 15em;
     box-shadow: 0em 1em 1em -0.5em rgb(234 234 234);
+    position:relative;
 }
 
 #restaurants h2
@@ -493,9 +481,9 @@ button:hover
     padding-top: 1%;
     padding-bottom: 1%;
     position: absolute;
-    right: 2em;
+    right: 1em;
     font-size: smaller;
-    top: 50em;
+    top: 1em;
 }
 
 .nouveau2
@@ -507,9 +495,9 @@ button:hover
     padding-top: 1%;
     padding-bottom: 1%;
     position: absolute;
-    right: 2em;
+    right: 1em;
     font-size: smaller;
-    top: 69.5em;
+    top: 1em;
 }
 
 .palette-desc, .note-enchantee-desc, .alafrancaise-desc, .delicedessens-desc
@@ -763,5 +751,5 @@ button:hover
    margin-right:0;
    transform-origin: 100% 0%;
    transform: scaleX(1);
-   transition: transform 900ms;
+   transition: transform 900ms ;
 }

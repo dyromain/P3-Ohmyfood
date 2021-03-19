@@ -201,11 +201,11 @@ header, main
     justify-content: center;
     align-items: baseline;
     box-shadow: inset 0px 7px 8px -6px grey;
-    width: 41%;
+    /*width: 41%;*/
     border-radius: 6px;
-    position: absolute;
+    /*position: absolute;
     left: 25em;
-    top: 7.5em;
+    top: 7.5em;*/
 }
 
 .fa-map-marker-alt
@@ -230,7 +230,7 @@ header, main
 {
     background-color:rgb(246, 246, 246);
     padding-top: 1%;
-    padding-bottom: 14%;
+    padding-bottom: 4%;
 }
 
 div.explorer > h1
@@ -263,12 +263,14 @@ div.explorer > button
     padding-top: 2%;
     padding-bottom: 2%;
     border: hidden;
-    width: 25%;
-    position: absolute;
+    width: 30%;
+    /*position: absolute;
     top: 10em;
-    left: 25em;
+    left: 25em;*/
     font-size: 1.3em;
     cursor:pointer;
+    margin-left: 35%;
+    margin-right: 35%;
 }
 
 button:hover
@@ -330,6 +332,7 @@ button:hover
 {
     display:flex;
     justify-content: center;
+    position:relative;
 }
 
 .un, .deux, .trois
@@ -344,34 +347,35 @@ button:hover
     font-family: 'robotolight', Arial, sans-serif;
     font-weight: lighter;
     position: absolute;
-    left: 25em;
+    left: -.75rem;
 
 }
 
 
 .mobile, .list, .store
 {
-    padding-top: 3.5%;
+    padding-top: 3%;
+    padding-right: 6%;
     font-size: 1.4em;
 }
 
-#fonctionnement > div.choisir > div.mobile > i
+/*#fonctionnement > div.choisir > div.mobile > i
 {
     position: absolute;
-    left: 23.5em;
+    left: 19em;
 }
 
 #fonctionnement > div.composer > div.list > i
 {
     position: absolute;
-    left: 23.5em;
+    left: 19em;
 }
 
 #fonctionnement > div.deguster > div.store > i
 {
     position: absolute;
-    left: 23.5em;
-}
+    left: 19em;
+}*/
 
 
 .restau
@@ -416,6 +420,7 @@ button:hover
     margin-bottom: 5%;
     height: 28em;
     box-shadow: 0em 1em 1em -0.5em rgb(234 234 234);
+    position:relative;
 }
 
 #fonctionnement > h1:nth-child(1)
@@ -515,9 +520,9 @@ button:hover
     padding-top: 1%;
     padding-bottom: 1%;
     position: absolute;
-    left: 28em;
+    right: 0.75em;
     font-size: 1em;
-    top: 67em;
+    top: 1em;
 }
 
 .nouveau2
@@ -529,9 +534,9 @@ button:hover
     padding-top: 1%;
     padding-bottom: 1%;
     position: absolute;
-    right: 6em;
+    right: 0.75em;
     font-size: 1em;
-    top: 67em;
+    top: 1em;
 }
 
 .palette-desc, .note-enchantee-desc, .alafrancaise-desc, .delicedessens-desc

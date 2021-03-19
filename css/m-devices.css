@@ -299,6 +299,7 @@ button:hover
     width: 88%;
     border-radius: 20px;
     box-shadow: 0em 1em 1em -0.5em rgb(234 234 234);
+    position:relative;
 }
 
 .choisir, .composer, .deguster p
@@ -324,7 +325,7 @@ button:hover
     font-family: 'robotolight', Arial, sans-serif;
     font-weight: lighter;
     position: absolute;
-    left: 30px;
+    left: -.5rem;
 }
 
 .comp-menu
@@ -337,6 +338,13 @@ button:hover
     padding-right:1%;
 }
 
+.mobile, .list, .store
+{
+    padding-top: 2%;
+    padding-right: 6%;
+}
+
+/*
 div.mobile > i
 {
     position: absolute;
@@ -356,7 +364,7 @@ div.mobile > i
     position: absolute;
     left: 16em;
     top: 40em;
-}
+}*/
 
 #fonctionnement > p
 {
@@ -396,6 +404,7 @@ div.mobile > i
     margin-bottom: 5%;
     height: 15em;
     box-shadow: 0em 1em 1em -0.5em rgb(234 234 234);
+    position:relative;
 }
 
 #restaurants h2
@@ -489,8 +498,8 @@ div.mobile > i
     padding-bottom: 1%;
     position: absolute;
     font-size: smaller;
-    top: 62em;
-    left: 17.5em; 
+    top: 1em;
+    right: 0.75em;
 }
 
 .nouveau2
@@ -502,9 +511,9 @@ div.mobile > i
     padding-top: 1%;
     padding-bottom: 1%;
     position: absolute;
-    right: 4em;
     font-size: smaller;
-    top: 62em;
+    top: 1em;
+    right: 0.75em;
 }
 
 .palette-desc, .note-enchantee-desc, .alafrancaise-desc, .delicedessens-desc

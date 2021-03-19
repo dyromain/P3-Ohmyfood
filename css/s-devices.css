@@ -223,7 +223,7 @@ header, main
 {
     background-color:rgb(246, 246, 246);
     padding-top: 4%;
-    padding-bottom: 20%;
+    padding-bottom: 8%;
 }
 
 div.explorer > h1
@@ -259,7 +259,6 @@ div.explorer > button
     margin-right:25%;
     border: hidden;
     width:50%;
-    position:absolute;
 }
 
 .explorer > button > a
@@ -300,6 +299,7 @@ button:hover
     width: 88%;
     border-radius: 20px;
     box-shadow: 0em 1em 1em -0.5em rgb(234 234 234);
+    position:relative;
 }
 
 .choisir, .composer, .deguster p
@@ -325,7 +325,7 @@ button:hover
     font-family: 'robotolight', Arial, sans-serif;
     font-weight: lighter;
     position: absolute;
-    left: 25px;
+    left: -.5rem;
 }
 
 .comp-menu
@@ -338,7 +338,13 @@ button:hover
     padding-right:1%;
 }
 
-.mobile > i
+.mobile, .list, .store
+{
+    padding-top: 2%;
+    padding-right: 6%;
+}
+
+/*.mobile > i
 {
     position: absolute;
     left: 12em;
@@ -357,7 +363,7 @@ button:hover
     position: absolute;
     left: 12em;
     top: 36.8em;
-}
+}*/
 
 #fonctionnement > p
 {
@@ -402,6 +408,7 @@ button:hover
     margin-bottom: 5%;
     height: 15em;
     box-shadow: 0em 1em 1em -0.5em rgb(234 234 234);
+    position:relative;
 }
 
 #restaurants h2
@@ -495,9 +502,8 @@ button:hover
     padding-bottom: 1%;
     position: absolute;
     font-size: smaller;
-    top: 56.3em;
-    left: 13em; 
-    width:9%;
+    top: 1em;
+    right: 1em; 
 }
 
 .nouveau2
@@ -509,9 +515,9 @@ button:hover
     padding-top: 1%;
     padding-bottom: 1%;
     position: absolute;
-    right: 3em;
+    right: 1em;
     font-size: smaller;
-    top: 56.3em;
+    top: 1em;
 }
 
 .palette-desc, .note-enchantee-desc, .alafrancaise-desc, .delicedessens-desc
