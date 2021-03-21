@@ -647,6 +647,9 @@ button:hover
 {
     font-size:0.9em;
     width: 80%;
+    text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;
 }
 
 .ingr > h3, p 
@@ -661,9 +664,11 @@ button:hover
 {
     display: flex;
     justify-content: space-between;
-    width: 93%;
+    width: 100%;
     padding-left: 3%;
-    
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 } 
 
 .entree1, .entree2, .entree3, .entree4, .plat1, .plat2, .plat3, .dessert1, .dessert2, .dessert3
@@ -682,6 +687,8 @@ button:hover
     font-size:0.9em;
     padding-top:2.4em;
     padding-right: 3%;
+    padding-left:3%;
+
 }
 
 /*Animation menu*/
@@ -726,8 +733,11 @@ button:hover
     border-radius: 0 15px 15px 0;
     width: 4rem;
     margin: 0 -5rem 0 0.3rem;
-    transition-duration: .5s;
+    transition: .8s ease-in-out;
     transform: scaleX(0); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 } 
 
 .coche
@@ -735,9 +745,10 @@ button:hover
     transform: rotate(360deg);
     transition: transform 1s ease-in-out;
     font-size: larger;
-    margin-left: 33%;
-    margin-top: 38%;
     transform-origin:20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -766,6 +777,7 @@ button:hover
  {
      display:flex;
      margin-bottom: 4%;
+     
  }
 
 
@@ -773,7 +785,7 @@ button:hover
 .plat3:hover .confirm, .dessert1:hover .confirm, .dessert2:hover .confirm, .dessert3:hover .confirm
 {
    margin-right:0;
-   transform-origin: 100% 0%;
+   transform-origin: right;
    transform: scaleX(1);
    transition: transform 900ms ease-in-out;
 
@@ -783,5 +795,6 @@ button:hover
 .plat3:hover .coche, .dessert1:hover .coche, .dessert2:hover .coche, .dessert3:hover .coche
 {
     transform: rotate(0deg);
+    
 }
 

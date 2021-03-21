@@ -700,7 +700,7 @@ div.commander > button
 
 .ingr
 {
-    width: 77%;
+    width: 80%;
 }
 
 .ingr > p
@@ -722,8 +722,11 @@ div.commander > button
 {
     display: flex;
     justify-content: space-between;
-    width: 93%;
+    width: 100%;
     padding-left: 3%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
     
 } 
 
@@ -731,7 +734,7 @@ div.commander > button
 {
     background: white;
     border-radius: 15px;
-    width: 85%;
+    width: 92%;
     margin-left: 7.5%;
     margin-right: 7.5%;
     box-shadow: 0px 6px 12px 0px lightgrey;
@@ -787,8 +790,11 @@ div.commander > button
     border-radius: 0 15px 15px 0;
     width: 7rem;
     margin: 0 -5rem 0 0.3rem;
-    transition-duration: .5s;
+    transition: .8s ease-in-out;
     transform: scaleX(0); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 } 
 
 .coche
@@ -796,9 +802,10 @@ div.commander > button
     transform: rotate(360deg);
     transition: transform 1s ease-in-out;
     font-size: 1.4em;
-    margin-left: 38%;
-    margin-top: 38%;
     transform-origin:20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -827,6 +834,7 @@ div.commander > button
  {
      display:flex;
      margin-bottom: 4%;
+     width: 85%;
  }
 
 

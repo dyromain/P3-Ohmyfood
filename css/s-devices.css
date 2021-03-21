@@ -703,8 +703,11 @@ button:hover
 {
     display: flex;
     justify-content: space-between;
-    width: 93%;
+    width: 100%;
     padding-left: 3%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
     
 } 
 
@@ -770,6 +773,9 @@ button:hover
     margin: 0 -5rem 0 0.3rem;
     transition-duration: .5s;
     transform: scaleX(0); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 } 
 
 .coche
@@ -777,9 +783,10 @@ button:hover
     transform: rotate(360deg);
     transition: transform 1s ease-in-out;
     font-size: larger;
-    margin-left: 33%;
-    margin-top: 38%;
     transform-origin:20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
